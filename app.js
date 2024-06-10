@@ -13,10 +13,10 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/auth', authRoutes);
-app.use('/users', userRoutes);
-app.use('/clients', clientRoutes);
-app.use('/stocks', stockRoutes);
+app.use('/school-canteen/auth', authRoutes);
+app.use('/school-canteen/users', userRoutes);
+app.use('/school-canteen/clients', clientRoutes);
+app.use('/school-canteen/stocks', stockRoutes);
 
 const PORT = process.env.PORT || 3000;
 
