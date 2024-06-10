@@ -8,9 +8,6 @@ pipeline {
         deployment = "${deployment}"
     }
 
-    tools {
-    }
-
     stages {
         stage('Build') {
             steps {
